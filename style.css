@@ -1,8 +1,28 @@
 .banner{
     position: relative;
-    background-image:url( https://th.bing.com/th?id=OIP.HxV79tFMPfBAIo0BBF-sOgHaEy&w=310&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2) ;
+    background-image:url(https://th.bing.com/th?id=OIP.qtfYVbZHPyVKPRVXpAH5FQHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2) ;
    background-size: cover;
     background-position: center;
     height: 400px;
     color: rgb(249, 247, 247);
+}
+.nav-bar{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   background: black;
+   padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
 }
